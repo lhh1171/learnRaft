@@ -2,12 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learnRaft" />
+        <module name="raft-core-service" />
+        <module name="raft-state-machine" />
+        <module name="raft-config-loader" />
+        <module name="raft-example" />
+        <module name="raft-core-model" />
+        <module name="raft-intergration" />
+        <module name="raft-facade" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="raft-model" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/raft-config-loader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-config-loader/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-core-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-core-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-core-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-core-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-facade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-intergration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-intergration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-state-machine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/raft-state-machine/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
