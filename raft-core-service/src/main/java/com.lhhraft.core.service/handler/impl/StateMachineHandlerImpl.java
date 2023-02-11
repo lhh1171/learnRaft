@@ -1,8 +1,8 @@
 package com.lhhraft.core.service.handler.impl;
 
-import com.lhhraft.core.config.loader.model.LogEntryModel;
-import com.lhhraft.core.config.loader.model.RaftCoreModel;
-import com.lhhraft.core.config.loader.model.ServerStateModel;
+import com.lhhraft.raft.facade.model.LogEntryModel;
+import com.lhhraft.raft.facade.model.RaftCoreModel;
+import com.lhhraft.raft.facade.model.ServerStateModel;
 import com.lhhraft.core.service.handler.StateMachineHandler;
 import com.lhhraft.state.machine.StateMachine;
 import lombok.extern.slf4j.Slf4j;
@@ -29,7 +29,7 @@ public class StateMachineHandlerImpl implements StateMachineHandler {
             Lock lock = RaftCoreModel.getLock();
             lock.lock();
             try {
-                //0.数据准备
+                //0.数据准备,拿到coreModel
                 RaftCoreModel coreModel = RaftCoreModel.getSingleton();
                 List<LogEntryModel> entries = coreModel.getPersistentState().getLogEntries();
                 ServerStateModel serverState = coreModel.getServerState();

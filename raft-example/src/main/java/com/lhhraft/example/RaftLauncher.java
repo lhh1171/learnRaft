@@ -1,6 +1,6 @@
 package com.lhhraft.example;
 
-import com.lhhraft.core.config.loader.exception.RaftException;
+import com.lhhraft.raft.facade.exception.RaftException;
 import com.lhhraft.core.service.handler.StateMachineHandler;
 import com.lhhraft.core.service.transformer.ServerStateTransformerStarter;
 import com.lhhraft.example.provider.DubboServiceRegister;

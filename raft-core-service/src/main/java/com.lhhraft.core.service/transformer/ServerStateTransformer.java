@@ -1,8 +1,8 @@
 package com.lhhraft.core.service.transformer;
 
 
-import com.lhhraft.core.config.loader.enums.ServerStateEnum;
-import com.lhhraft.core.config.loader.model.RaftCoreModel;
+import com.lhhraft.raft.facade.enums.ServerStateEnum;
+import com.lhhraft.raft.facade.model.RaftCoreModel;
 
 import java.util.List;
 

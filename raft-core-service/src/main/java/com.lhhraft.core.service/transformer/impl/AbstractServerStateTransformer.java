@@ -2,7 +2,7 @@ package com.lhhraft.core.service.transformer.impl;
 
 
 
-import com.lhhraft.core.config.loader.enums.ServerStateEnum;
+import com.lhhraft.raft.facade.enums.ServerStateEnum;
 import com.lhhraft.core.service.transformer.ServerStateFactory;
 import com.lhhraft.core.service.transformer.ServerStateTransformer;
 
@@ -10,6 +10,7 @@ import javax.annotation.Resource;
 
 /**
  * @description: 抽象类
+
  */
 public abstract class AbstractServerStateTransformer implements ServerStateTransformer {
     @Resource

@@ -1,7 +1,7 @@
 package com.lhhraft.state.machine;
 
 
-import com.lhhraft.core.config.loader.model.LogEntryModel;
+import com.lhhraft.raft.facade.model.LogEntryModel;
 
 /**
  * @description: 状态机

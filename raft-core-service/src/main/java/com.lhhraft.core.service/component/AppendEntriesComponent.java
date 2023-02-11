@@ -1,7 +1,7 @@
 package com.lhhraft.core.service.component;
 
 
-import com.lhhraft.core.config.loader.model.AppendEntriesRequest;
+import com.lhhraft.raft.facade.model.AppendEntriesRequest;
 
 /**
  * @description: 附件日志条目服务

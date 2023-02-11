@@ -1,7 +1,7 @@
 package com.lhhraft.core.service.component;
 
 
-import com.lhhraft.core.config.loader.model.VoteRequest;
+import com.lhhraft.raft.facade.model.VoteRequest;
 
 /**
  * @description: 发起投票服务

@@ -1,10 +1,10 @@
 package com.lhhraft.core.service.service.impl;
 
 import cn.hutool.core.util.NumberUtil;
-import com.lhhraft.core.config.loader.constant.CommonConstant;
-import com.lhhraft.core.config.loader.model.*;
+import com.lhhraft.raft.facade.constant.CommonConstant;
 import com.lhhraft.core.service.service.AppendEntriesService;
 import com.lhhraft.core.service.transformer.convertor.FollowerConvertor;
+import com.lhhraft.raft.facade.model.*;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.locks.Lock;

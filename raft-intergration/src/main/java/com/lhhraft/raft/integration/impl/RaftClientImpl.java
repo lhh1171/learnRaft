@@ -1,9 +1,9 @@
 package com.lhhraft.raft.integration.impl;
 
-import com.lhhraft.core.config.loader.model.AppendEntriesRequest;
-import com.lhhraft.core.config.loader.model.AppendEntriesResponse;
-import com.lhhraft.core.config.loader.model.VoteRequest;
-import com.lhhraft.core.config.loader.model.VoteResponse;
+import com.lhhraft.raft.facade.model.AppendEntriesRequest;
+import com.lhhraft.raft.facade.model.AppendEntriesResponse;
+import com.lhhraft.raft.facade.model.VoteRequest;
+import com.lhhraft.raft.facade.model.VoteResponse;
 import com.lhhraft.raft.integration.RaftClient;
 import com.lhhraft.raft.integration.consumer.DubboServiceConsumer;
 import lombok.extern.slf4j.Slf4j;
