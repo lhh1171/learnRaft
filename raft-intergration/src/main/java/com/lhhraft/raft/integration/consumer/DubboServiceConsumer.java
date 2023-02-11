@@ -1,7 +1,7 @@
 package com.lhhraft.raft.integration.consumer;
 
 
-import com.lhhraft.raft.facade.api.RaftFacade;
+import com.lhhraft.raft.api.RaftFacade;
 
 /**
  * @description: dubbo 服务消费

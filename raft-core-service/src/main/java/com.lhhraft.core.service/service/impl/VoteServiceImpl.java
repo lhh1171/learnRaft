@@ -2,7 +2,7 @@ package com.lhhraft.core.service.service.impl;
 
 import com.lhhraft.core.service.service.VoteService;
 import com.lhhraft.core.service.transformer.convertor.FollowerConvertor;
-import com.lhhraft.raft.facade.model.*;
+import com.lhhraft.raft.model.*;
 import org.springframework.stereotype.Service;
 
 

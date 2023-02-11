@@ -1,10 +1,10 @@
 package com.lhhraft.raft.integration;
 
 
-import com.lhhraft.raft.facade.model.AppendEntriesRequest;
-import com.lhhraft.raft.facade.model.AppendEntriesResponse;
-import com.lhhraft.raft.facade.model.VoteRequest;
-import com.lhhraft.raft.facade.model.VoteResponse;
+import com.lhhraft.raft.model.AppendEntriesRequest;
+import com.lhhraft.raft.model.AppendEntriesResponse;
+import com.lhhraft.raft.model.VoteRequest;
+import com.lhhraft.raft.model.VoteResponse;
 
 /**
  * @description: raft 发起请求

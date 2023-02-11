@@ -1,7 +1,7 @@
 package com.lhhraft.core.service.transformer;
 
 
-import com.lhhraft.raft.facade.enums.ServerStateEnum;
+import com.lhhraft.raft.enums.ServerStateEnum;
 
 /**
  * @description: 状态执行器工厂

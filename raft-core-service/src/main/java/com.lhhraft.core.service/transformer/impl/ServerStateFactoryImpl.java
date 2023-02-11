@@ -1,6 +1,6 @@
 package com.lhhraft.core.service.transformer.impl;
 
-import com.lhhraft.raft.facade.enums.ServerStateEnum;
+import com.lhhraft.raft.enums.ServerStateEnum;
 import com.lhhraft.core.service.transformer.ServerStateFactory;
 import com.lhhraft.core.service.transformer.ServerStateTransformer;
 import lombok.Setter;

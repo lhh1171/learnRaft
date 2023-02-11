@@ -1,8 +1,8 @@
 package com.lhhraft.core.service.handler.impl;
 
-import com.lhhraft.raft.facade.model.LogEntryModel;
-import com.lhhraft.raft.facade.model.RaftCoreModel;
-import com.lhhraft.raft.facade.model.ServerStateModel;
+import com.lhhraft.raft.model.LogEntryModel;
+import com.lhhraft.raft.model.RaftCoreModel;
+import com.lhhraft.raft.model.ServerStateModel;
 import com.lhhraft.core.service.handler.StateMachineHandler;
 import com.lhhraft.state.machine.StateMachine;
 import lombok.extern.slf4j.Slf4j;
