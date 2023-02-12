@@ -9,6 +9,9 @@ import com.lhhraft.raft.model.VoteResponse;
 /**
  * @description: raft 门面：接受其他server的请求
  */
+
+
+//应该被继承实现一下的
 public interface RaftFacade {
 
     /**
